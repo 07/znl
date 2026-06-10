@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-10T06:04:43.214Z",
+  "updatedAt": "2026-06-10T06:20:35.943Z",
   "errors": [
     "[text] rss (一日一言) failed: rss:一日一言 timeout 3000ms",
     "[video] bilibili_user (B 站 UP 主(可改 mid)) failed: bilibili_user requires mid"
   ],
   "text": [
     {
-      "id": "quote-1781071486267-0",
+      "id": "quote-1781072438997-0",
       "type": "text",
-      "title": "愿你历尽千帆,归来仍是少年。",
-      "desc": "愿你历尽千帆,归来仍是少年。",
-      "body": "愿你历尽千帆,归来仍是少年。",
+      "title": "善良比聪明更难得,愿你一直善良。",
+      "desc": "善良比聪明更难得,愿你一直善良。",
+      "body": "善良比聪明更难得,愿你一直善良。",
       "author": "佚名",
       "url": "#",
-      "publishedAt": "2026-06-10T06:04:46.267Z",
+      "publishedAt": "2026-06-10T06:20:38.997Z",
       "tags": [
         "暖心",
         "语录"
@@ -21,14 +21,14 @@
       "source": "正能量短句库"
     },
     {
-      "id": "quote-1781071486267-1",
+      "id": "quote-1781072438997-1",
       "type": "text",
-      "title": "心怀暖阳,何惧人生荒凉。",
-      "desc": "心怀暖阳,何惧人生荒凉。",
-      "body": "心怀暖阳,何惧人生荒凉。",
+      "title": "愿你的世界里,鲜花常开,清风徐来。",
+      "desc": "愿你的世界里,鲜花常开,清风徐来。",
+      "body": "愿你的世界里,鲜花常开,清风徐来。",
       "author": "佚名",
       "url": "#",
-      "publishedAt": "2026-06-10T06:04:46.267Z",
+      "publishedAt": "2026-06-10T06:20:38.997Z",
       "tags": [
         "暖心",
         "语录"
@@ -36,14 +36,14 @@
       "source": "正能量短句库"
     },
     {
-      "id": "quote-1781071486267-2",
+      "id": "quote-1781072438997-2",
       "type": "text",
-      "title": "与其追逐远方,不如把眼前过成诗。",
-      "desc": "与其追逐远方,不如把眼前过成诗。",
-      "body": "与其追逐远方,不如把眼前过成诗。",
-      "author": "佚名",
+      "title": "心有所信,方能行远。",
+      "desc": "心有所信,方能行远。",
+      "body": "心有所信,方能行远。",
+      "author": "李大钊",
       "url": "#",
-      "publishedAt": "2026-06-10T06:04:46.267Z",
+      "publishedAt": "2026-06-10T06:20:38.997Z",
       "tags": [
         "暖心",
         "语录"
@@ -53,7 +53,7 @@
   ],
   "image_text": [
     {
-      "id": "pic-1781071486267-0",
+      "id": "pic-1781072438998-0",
       "type": "image_text",
       "title": "清晨的第一缕光",
       "desc": "每一天的醒来,都是世界给我们最温柔的礼物。",
@@ -61,7 +61,7 @@
       "image": "https://picsum.photos/seed/sunrise-0-2026-06-10/800/600",
       "fallbackImage": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20800%20600'%3E%0A%20%20%20%20%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%20gradientTransform%3D'rotate(176%200.5%200.5)'%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'0%25'%20stop-color%3D'%23dcedc8'%2F%3E%3Cstop%20offset%3D'100%25'%20stop-color%3D'%23aed581'%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23g)'%2F%3E%0A%20%20%20%20%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20text-anchor%3D'middle'%20dy%3D'.35em'%20font-family%3D'-apple-system%2C%20sans-serif'%0A%20%20%20%20%20%20font-size%3D'44'%20fill%3D'rgba(255%2C255%2C255%2C0.85)'%20font-weight%3D'600'%3Esunrise%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
       "url": "https://picsum.photos/seed/sunrise-0-2026-06-10/1600/1200",
-      "publishedAt": "2026-06-10T06:04:46.267Z",
+      "publishedAt": "2026-06-10T06:20:38.998Z",
       "tags": [
         "sunrise",
         "美图"
@@ -69,7 +69,7 @@
       "source": "暖心关键词图卡"
     },
     {
-      "id": "pic-1781071486267-1",
+      "id": "pic-1781072438998-1",
       "type": "image_text",
       "title": "今天也要开心呀",
       "desc": "快乐其实很简单,它藏在每一个平凡的小瞬间里。",
@@ -77,7 +77,7 @@
       "image": "https://picsum.photos/seed/happiness-1-2026-06-10/800/600",
       "fallbackImage": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20800%20600'%3E%0A%20%20%20%20%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%20gradientTransform%3D'rotate(45%200.5%200.5)'%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'0%25'%20stop-color%3D'%23f3e5f5'%2F%3E%3Cstop%20offset%3D'100%25'%20stop-color%3D'%23ce93d8'%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23g)'%2F%3E%0A%20%20%20%20%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20text-anchor%3D'middle'%20dy%3D'.35em'%20font-family%3D'-apple-system%2C%20sans-serif'%0A%20%20%20%20%20%20font-size%3D'44'%20fill%3D'rgba(255%2C255%2C255%2C0.85)'%20font-weight%3D'600'%3Ehappiness%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
       "url": "https://picsum.photos/seed/happiness-1-2026-06-10/1600/1200",
-      "publishedAt": "2026-06-10T06:04:46.267Z",
+      "publishedAt": "2026-06-10T06:20:38.998Z",
       "tags": [
         "happiness",
         "美图"
@@ -85,7 +85,7 @@
       "source": "暖心关键词图卡"
     },
     {
-      "id": "pic-1781071486267-2",
+      "id": "pic-1781072438998-2",
       "type": "image_text",
       "title": "心怀感恩,所遇皆温柔",
       "desc": "懂得感恩的人,世界会给他更多值得感恩的事。",
@@ -93,7 +93,7 @@
       "image": "https://picsum.photos/seed/gratitude-2-2026-06-10/800/600",
       "fallbackImage": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20800%20600'%3E%0A%20%20%20%20%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%20gradientTransform%3D'rotate(126%200.5%200.5)'%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'0%25'%20stop-color%3D'%23dcedc8'%2F%3E%3Cstop%20offset%3D'100%25'%20stop-color%3D'%23aed581'%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23g)'%2F%3E%0A%20%20%20%20%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20text-anchor%3D'middle'%20dy%3D'.35em'%20font-family%3D'-apple-system%2C%20sans-serif'%0A%20%20%20%20%20%20font-size%3D'44'%20fill%3D'rgba(255%2C255%2C255%2C0.85)'%20font-weight%3D'600'%3Egratitude%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
       "url": "https://picsum.photos/seed/gratitude-2-2026-06-10/1600/1200",
-      "publishedAt": "2026-06-10T06:04:46.267Z",
+      "publishedAt": "2026-06-10T06:20:38.998Z",
       "tags": [
         "gratitude",
         "美图"
@@ -103,58 +103,55 @@
   ],
   "video": [
     {
-      "id": "video-%E3%80%90%E4%BA%BA%E7%94%9F%E4%BD%8E%E8%B0%B7%E3%80%91%E8%BF%99%E5%87%A0%E4%BD%8D%20UP%20%E7%9A%84%E5%8F%99%E4%BA%8B%E4%B9%9F%E8%AE%B8%E4%BC%9A%E6%8B%8D%E4%B8%AD%E4%BD%A0-0",
+      "id": "bilis-BV1wBPazHENY-op4e",
       "type": "video",
-      "title": "【人生低谷】这几位 UP 的叙事也许会拍中你",
-      "desc": "B 站\"人生 / 成长\" 话题,好会讲的人,慢慢说给你听。",
-      "body": "B 站\"人生 / 成长\" 话题,好会讲的人,慢慢说给你听。",
-      "image": "https://picsum.photos/seed/%E4%BA%BA%E7%94%9F%E4%BD%8E%E8%B0%B7/800/450",
-      "fallbackImage": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20800%20450'%3E%0A%20%20%20%20%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%20gradientTransform%3D'rotate(69%200.5%200.5)'%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'0%25'%20stop-color%3D'%23ffe0b2'%2F%3E%3Cstop%20offset%3D'100%25'%20stop-color%3D'%23ffb74d'%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23g)'%2F%3E%0A%20%20%20%20%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20text-anchor%3D'middle'%20dy%3D'.35em'%20font-family%3D'-apple-system%2C%20sans-serif'%0A%20%20%20%20%20%20font-size%3D'44'%20fill%3D'rgba(255%2C255%2C255%2C0.85)'%20font-weight%3D'600'%3E%E3%80%90%E4%BA%BA%E7%94%9F%E4%BD%8E%E8%B0%B7%E3%80%91%E8%BF%99%E5%87%A0%E4%BD%8D%20%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
-      "embed": "",
-      "url": "https://search.bilibili.com/all?keyword=%E4%BA%BA%E7%94%9F%E4%BD%8E%E8%B0%B7",
-      "publishedAt": "2026-06-10T06:04:46.268Z",
+      "title": "“ 沉溺于此刻 ，安静又不被打扰 ”",
+      "desc": "-",
+      "body": "-",
+      "image": "https://i1.hdslb.com/bfs/archive/b572830902c335920712b220a04527bc0105673e.jpg",
+      "embed": "//player.bilibili.com/player.html?bvid=BV1wBPazHENY&autoplay=0&danmaku=0&high_quality=1",
+      "url": "https://www.bilibili.com/video/BV1wBPazHENY",
+      "publishedAt": "2026-03-07T04:37:54.000Z",
       "tags": [
+        "B站",
         "视频",
-        "推存",
-        "B站"
+        "治愈"
       ],
-      "source": "B站·话题"
+      "source": "B站·治愈"
     },
     {
-      "id": "video-%E3%80%90%E5%8A%A4%E5%BF%97%E6%BC%94%E8%AE%B2%E3%80%91%E8%BF%99%E5%87%A0%E5%88%86%E9%A5%B0%E4%B9%9F%E8%AE%B8%E8%83%BD%E8%BF%98%E4%BD%A0%E4%B8%80%E7%82%B9%E5%8A%9B%E9%87%8F-1",
+      "id": "bilis-BV1adEu6aEEc-uotu",
       "type": "video",
-      "title": "【劤志演讲】这几分饰也许能还你一点力量",
-      "desc": "B 站\"劤志 / TED\" 话题精选,早晨看一劤志,一整天都高光。",
-      "body": "B 站\"劤志 / TED\" 话题精选,早晨看一劤志,一整天都高光。",
-      "image": "https://picsum.photos/seed/%E5%8A%A4%E5%BF%97%E6%BC%94%E8%AE%B2/800/450",
-      "fallbackImage": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20800%20450'%3E%0A%20%20%20%20%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%20gradientTransform%3D'rotate(352%200.5%200.5)'%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'0%25'%20stop-color%3D'%23fce4ec'%2F%3E%3Cstop%20offset%3D'100%25'%20stop-color%3D'%23f8bbd0'%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23g)'%2F%3E%0A%20%20%20%20%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20text-anchor%3D'middle'%20dy%3D'.35em'%20font-family%3D'-apple-system%2C%20sans-serif'%0A%20%20%20%20%20%20font-size%3D'44'%20fill%3D'rgba(255%2C255%2C255%2C0.85)'%20font-weight%3D'600'%3E%E3%80%90%E5%8A%A4%E5%BF%97%E6%BC%94%E8%AE%B2%E3%80%91%E8%BF%99%E5%87%A0%E5%88%86%E9%A5%B0%E4%B9%9F%E8%AE%B8%E8%83%BD%E8%BF%98%E4%BD%A0%E4%B8%80%E7%82%B9%E5%8A%9B%E9%87%8F%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
-      "embed": "",
-      "url": "https://search.bilibili.com/all?keyword=%E5%8A%A4%E5%BF%97%E6%BC%94%E8%AE%B2",
-      "publishedAt": "2026-06-10T06:04:46.268Z",
+      "title": "【THETA波】3分钟快速入睡，严重失眠专属舒缓睡眠助眠催眠音乐，放松睡眠音乐 双耳节拍 脑波 深度睡眠 睡眠冥想 舒缓音乐 放松音乐 缓解压力",
+      "desc": "这款舒缓的7赫兹超低频θ脑波与轻柔睡眠音乐完美融合，助您进入深度放松状态。精心设计的这款产品旨在帮助您摆脱过度思考，减轻精神压力，引导您进入更深沉、更自然的睡眠状态。🌙✨\n这种舒缓的音景融合了柔和的环境音效和低频θ波刺激，营造出适合睡眠、冥想、缓解压力和夜间放松的舒缓氛围。θ波",
+      "body": "这款舒缓的7赫兹超低频θ脑波与轻柔睡眠音乐完美融合，助您进入深度放松状态。精心设计的这款产品旨在帮助您摆脱过度思考，减轻精神压力，引导您进入更深沉、更自然的睡眠状态。🌙✨\n这种舒缓的音景融合了柔和的环境音效和低频θ波刺激，营造出适合睡眠、冥想、缓解压力和夜间放松的舒缓氛围。θ波频率约为6赫兹，通常与深度放松、生动的梦境、情绪平静以及清醒与睡眠的过渡状态相关。\n无论您是饱受过度思考、夜间焦虑、失眠的困扰，还是仅仅想要更安稳的睡眠体验，这段舒缓的睡眠音乐都能帮助您进入更平静的状态。\n✨ 本视频内容：\n• 低频",
+      "image": "https://i2.hdslb.com/bfs/archive/c71cbf0a6253e6a9c64a7f764404ed34ac24c231.jpg",
+      "embed": "//player.bilibili.com/player.html?bvid=BV1adEu6aEEc&autoplay=0&danmaku=0&high_quality=1",
+      "url": "https://www.bilibili.com/video/BV1adEu6aEEc",
+      "publishedAt": "2026-06-08T12:01:39.000Z",
       "tags": [
+        "B站",
         "视频",
-        "推存",
-        "B站"
+        "助眠音乐"
       ],
-      "source": "B站·话题"
+      "source": "B站·助眠音乐"
     },
     {
-      "id": "video-%E3%80%90%E5%AE%9D%E8%97%8F%20UP%20%E6%8E%A8%E5%AD%98%E3%80%91%E8%BA%AB%E5%BF%83%E7%84%A6%E8%99%91%E7%9A%84%E6%97%B6%E5%80%99%E7%9C%8B%E8%BF%99%E4%BA%9B-2",
+      "id": "bilis-BV1tBVz6oEV1-o2vy",
       "type": "video",
-      "title": "【宝藏 UP 推存】身心焦虑的时候看这些",
-      "desc": "B 站\"治愈 / 心理\"话题精选 UP,适合周末靜心观看。",
-      "body": "B 站\"治愈 / 心理\"话题精选 UP,适合周末靜心观看。",
-      "image": "https://picsum.photos/seed/%E6%B2%BB%E6%84%88/800/450",
-      "fallbackImage": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20800%20450'%3E%0A%20%20%20%20%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%20gradientTransform%3D'rotate(323%200.5%200.5)'%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D'0%25'%20stop-color%3D'%23e1f5fe'%2F%3E%3Cstop%20offset%3D'100%25'%20stop-color%3D'%23b3e5fc'%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'url(%23g)'%2F%3E%0A%20%20%20%20%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20text-anchor%3D'middle'%20dy%3D'.35em'%20font-family%3D'-apple-system%2C%20sans-serif'%0A%20%20%20%20%20%20font-size%3D'44'%20fill%3D'rgba(255%2C255%2C255%2C0.85)'%20font-weight%3D'600'%3E%E3%80%90%E5%AE%9D%E8%97%8F%20%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
-      "embed": "",
-      "url": "https://search.bilibili.com/all?keyword=%E6%B2%BB%E6%84%88",
-      "publishedAt": "2026-06-10T06:04:46.268Z",
+      "title": "如何走出低谷期？完成人生重启！『恢复心气』",
+      "desc": "如何走出低谷期？完成人生重启！『恢复心气』",
+      "body": "如何走出低谷期？完成人生重启！『恢复心气』",
+      "image": "https://i0.hdslb.com/bfs/archive/bf13adcb56b6727585852579763024c6f8bd47e3.jpg",
+      "embed": "//player.bilibili.com/player.html?bvid=BV1tBVz6oEV1&autoplay=0&danmaku=0&high_quality=1",
+      "url": "https://www.bilibili.com/video/BV1tBVz6oEV1",
+      "publishedAt": "2026-06-02T08:56:04.000Z",
       "tags": [
+        "B站",
         "视频",
-        "推存",
-        "B站"
+        "人生低谷"
       ],
-      "source": "B站·话题"
+      "source": "B站·人生低谷"
     }
   ]
 }
