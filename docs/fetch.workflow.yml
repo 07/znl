@@ -7,6 +7,9 @@ on:
   push:
     paths: ["config.json"]
 
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -15,11 +18,25 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
-      - run: npm ci --no-audit --no-fund
-      - run: node scripts/fetch.js
-      - run: |
+          node-version: "24"
+      - name: Install
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci --no-audit --no-fund
+          else
+            echo "No lockfile, skip install (zero deps project)"
+          fi
+      - name: Run fetcher
+        run: node scripts/fetch.js
+      - name: Commit & push if changed
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet public/data/contents.json; then
+            echo "No content changes."
+            exit 0
+          fi
           git add public/data/contents.json
-          git diff --cached --quiet || git commit -m "chore(data): daily fetch" && git push
+          msg="chore(data): daily fetch @ $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "$msg" || true
+          git push
