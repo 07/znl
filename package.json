@@ -1,0 +1,16 @@
+{
+  "name": "positive-energy-site",
+  "version": "1.0.0",
+  "description": "正能量内容站 - 文字 / 图文 / 视频 每日自动采集,支持 Vercel 一键部署",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "fetch": "node scripts/fetch.js",
+    "fetch:all": "node scripts/fetch.js --count 10",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}

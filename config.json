@@ -1,0 +1,59 @@
+{
+  "_comment": "正能量内容采集源配置 - 改这个文件就能加/换内容源,不用动代码。每类下面的 sources 数组是采集源列表,fetch 时按 type 分发,失败会自动用内置正能量短句库兜底,保证每天都有内容。",
+  "settings": {
+    "perCategory": 3,
+    "perCategoryMax": 10,
+    "maxAge": 7,
+    "userAgent": "PositiveEnergyBot/1.0 (+https://github.com/)"
+  },
+  "categories": {
+    "text": {
+      "label": "暖心文字",
+      "icon": "📝",
+      "sources": [
+        {
+          "type": "rss",
+          "name": "一日一言",
+          "url": "https://feeds.feedburner.com/quotationspage/mqotd",
+          "limit": 5
+        },
+        {
+          "type": "fallback_quotes",
+          "limit": 3
+        }
+      ]
+    },
+    "image_text": {
+      "label": "暖心图文",
+      "icon": "🖼️",
+      "sources": [
+        {
+          "type": "unsplash",
+          "name": "Unsplash 阳光 / 暖心关键词",
+          "queries": ["sunrise", "happiness", "gratitude", "smile", "kindness", "hope", "nature"],
+          "limit": 6
+        },
+        {
+          "type": "fallback_cards",
+          "limit": 3
+        }
+      ]
+    },
+    "video": {
+      "label": "励志视频",
+      "icon": "🎬",
+      "sources": [
+        {
+          "type": "youtube_channel",
+          "name": "示例正能量频道(可替换)",
+          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "limit": 5
+        },
+        {
+          "type": "fallback_videos",
+          "limit": 3
+        }
+      ]
+    }
+  }
+}
