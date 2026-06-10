@@ -14,11 +14,6 @@
       <div class="hero-badge">☀️ 今日 · <span id="today"></span></div>
       <h1 class="hero-title">愿你眼里有光,心里有暖</h1>
       <p class="hero-subtitle">每天给你一点温柔的小确幸 — 暖心文字 · 治愈图文 · 励志视频</p>
-      <div class="hero-stats" id="stats">
-        <span class="stat-pill">📝 <b id="stat-text">…</b> 段文字</span>
-        <span class="stat-pill">🖼️ <b id="stat-image">…</b> 张图文</span>
-        <span class="stat-pill">🎬 <b id="stat-video">…</b> 段视频</span>
-      </div>
     </div>
     <div class="hero-deco" aria-hidden="true">
       <span>🌸</span><span>☁️</span><span>🌿</span><span>✨</span>
@@ -63,8 +58,13 @@
     <div class="modal-mask" data-close></div>
     <div class="video-card">
       <button class="modal-close" data-close aria-label="关闭">×</button>
-      <div class="video-frame">
+      <div id="video-frame-wrap" class="video-frame hidden">
         <iframe id="video-frame" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture"></iframe>
+      </div>
+      <div id="video-fallback" class="video-fallback hidden">
+        <div class="video-fallback-icon">🎬</div>
+        <p id="video-fallback-msg">点击下方按钮跳到 B 站观看相关推荐</p>
+        <a id="video-link" class="btn-primary" target="_blank" rel="noopener">🔗 去 B 站看看</a>
       </div>
       <h3 id="video-title"></h3>
       <p id="video-desc"></p>

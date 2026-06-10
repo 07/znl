@@ -28,9 +28,6 @@ function renderAll() {
   renderText();
   renderImageText();
   renderVideo();
-  $('#stat-text').textContent = (DATA.text || []).length;
-  $('#stat-image').textContent = (DATA.image_text || []).length;
-  $('#stat-video').textContent = (DATA.video || []).length;
   const empty = !((DATA.text || []).length || (DATA.image_text || []).length || (DATA.video || []).length);
   $('#empty').classList.toggle('hidden', !empty);
 }
@@ -106,12 +103,16 @@ function renderVideo() {
   }
   grid.innerHTML = items
     .map(
-      (it) => `
+      (it) => {
+        const isBili = (it.url || '').includes('bilibili.com') || (it.source || '').includes('B站');
+        const playIcon = isBili ? '↗' : '▶';
+        return `
       <article class="card-media" data-id="${escapeHtml(it.id)}" data-type="video">
         <div class="thumb">
           <img src="${escapeHtml(it.image || '')}" alt="${escapeHtml(it.title || '')}" loading="lazy"
                data-fallback="${escapeHtml(it.fallbackImage || '')}" />
-          <div class="play">▶</div>
+          <div class="play">${playIcon}</div>
+          ${isBili ? '<span class="badge-bili">B站</span>' : ''}
         </div>
         <div class="body">
           <h3>${escapeHtml(it.title || '')}</h3>
@@ -121,7 +122,8 @@ function renderVideo() {
             <span>${formatTime(it.publishedAt)}</span>
           </div>
         </div>
-      </article>`
+      </article>`;
+      }
     )
     .join('');
   $$('#grid-video img').forEach(bindImageFallback);
@@ -161,14 +163,25 @@ function openTextModal(item) {
 }
 
 function openVideoModal(item) {
-  if (!item.embed) {
-    if (item.url) window.open(item.url, '_blank', 'noopener');
-    return;
-  }
-  const sep = item.embed.includes('?') ? '&' : '?';
-  $('#video-frame').src = item.embed + sep + 'autoplay=1';
   $('#video-title').textContent = item.title || '';
   $('#video-desc').textContent = item.desc || item.body || '';
+  const $frame = $('#video-frame-wrap');
+  const $fallback = $('#video-fallback');
+  if (item.embed) {
+    const sep = item.embed.includes('?') ? '&' : '?';
+    $('#video-frame').src = item.embed + sep + 'autoplay=1';
+    $frame.classList.remove('hidden');
+    $fallback.classList.add('hidden');
+  } else {
+    // 没嵌入器: 退到「去 B 站看看」
+    $('#video-frame').src = '';
+    $frame.classList.add('hidden');
+    $fallback.classList.remove('hidden');
+    const $link = $('#video-link');
+    $link.href = item.url || '#';
+    const isBili = (item.url || '').includes('bilibili.com');
+    $link.textContent = isBili ? '🔗 去 B 站看看' : '🔗 打开看看';
+  }
   $('#video-modal').classList.remove('hidden');
   document.body.style.overflow = 'hidden';
 }

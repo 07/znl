@@ -45,6 +45,17 @@ const fs = require('fs');
     await page.waitForTimeout(2500);
   }
   await page.screenshot({ path: out, fullPage: true });
+  // 额外:点第一个视频卡拍 modal
+  if (cat === 'video') {
+    try {
+      const card = await page.$('.card-media');
+      if (card) {
+        await card.click();
+        await page.waitForTimeout(800);
+        await page.screenshot({ path: out.replace('.png', '-modal.png') });
+      }
+    } catch (_) {}
+  }
   console.log('saved →', out);
   await browser.close();
 })().catch((e) => {

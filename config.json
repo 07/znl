@@ -24,12 +24,12 @@
       ]
     },
     "image_text": {
-      "label": "暖心图文",
+      "label": "治愈图文",
       "icon": "🖼️",
       "sources": [
         {
           "type": "unsplash",
-          "name": "Unsplash 阳光 / 暖心关键词",
+          "name": "暖心关键词图卡",
           "queries": ["sunrise", "happiness", "gratitude", "smile", "kindness", "hope", "nature"],
           "limit": 6
         },
@@ -44,12 +44,14 @@
       "icon": "🎬",
       "sources": [
         {
-          "type": "youtube_channel",
-          "name": "示例正能量频道(可替换)",
-          "channelId": "UCBJycsmduvYEL83R_U4JriQ",
+          "_comment": "B 站 UP 主最新投稿 — 把 mid 换成你喜欢的 UP 主的数字 ID(进 UP 主页 URL 里的数字)",
+          "type": "bilibili_user",
+          "name": "B 站 UP 主(可改 mid)",
+          "mid": "",
           "limit": 5
         },
         {
+          "_comment": "兑底:精选 B 站真实可播放的视频(带 BV 号),即使 mid 不填也一定有内容",
           "type": "fallback_videos",
           "limit": 3
         }
